@@ -1,0 +1,13 @@
+Getting started doc
+http://www.dexterindustries.com/BrickPi/getting-started/pi-prep/
+
+
+Info on connecting to BrickPi
+http://www.dexterindustries.com/BrickPi/getting-started/using-the-pi/
+
+VNC setup
+http://learn.adafruit.com/adafruit-raspberry-pi-lesson-7-remote-control-with-vnc
+
+
+Program in python (all install steps already done)
+http://www.dexterindustries.com/BrickPi/program-it/python/
