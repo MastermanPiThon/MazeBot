@@ -1,7 +1,7 @@
-Name: Emmett Neyman
-Project Name: Semi-Autonomous Recon Bot
+Name: Juan Direction
+Project Name: Semi-carry-Autonomous Recon Bot
 
-Description: This bot does everything. Well, almost everything. It does some stuff. 
+Description: This bot does nothing. Well, almost everything (Actually nothing). It does some stuff. 
 My vision is to have a robot that uses an ultrasonic range sensor to explore its surroundings. 
 Then, the robot will send live video footage back to a computer. Programming could give the robot a 
 memory so it would never repeat its path. My end goal is for it to be able to complete a maze. 
@@ -15,3 +15,5 @@ Materials:
   - Wireless keyboard (if we add wireless functionality)
   - Pi Camera
   - Breadboard and other electronics
+
+This bot is pretty dumb

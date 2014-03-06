@@ -2,14 +2,13 @@
 
 
 
-
 <!DOCTYPE html>
 <html>
   <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>BrickPi_Python/BrickPi.py at master · DexterInd/BrickPi_Python</title>
-    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub" />
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="NOOB" />
     <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub" />
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png" />
     <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png" />
@@ -355,8 +354,8 @@
         <li class="tooltipped leftwards" title="Issues">
           <a href="/DexterInd/BrickPi_Python/issues" aria-label="Issues" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-gotokey="i" data-selected-links="repo_issues /DexterInd/BrickPi_Python/issues">
             <span class="octicon octicon-issue-opened"></span> <span class="full-word">Issues</span>
-            <span class='counter'>0</span>
-            <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+            <span class='counter'>1</span>
+            <img alt="Octocat-spinner-32" class="mini-loader" height="69" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
 </a>        </li>
 
       <li class="tooltipped leftwards" title="Pull Requests">
@@ -367,7 +366,7 @@
 </a>      </li>
 
 
-        <li class="tooltipped leftwards" title="Wiki">
+        <li class="tooltipped leftwards" title="Dumb">
           <a href="/DexterInd/BrickPi_Python/wiki" aria-label="Wiki" class="js-selected-navigation-item sunken-menu-item" data-pjax="true" data-selected-links="repo_wiki /DexterInd/BrickPi_Python/wiki">
             <span class="octicon octicon-book"></span> <span class="full-word">Wiki</span>
             <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
@@ -1262,4 +1261,5 @@
 
   </body>
 </html>
+
 
