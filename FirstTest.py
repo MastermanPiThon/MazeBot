@@ -27,14 +27,20 @@ while True:
     	print BrickPi.Sensor[PORT_1]
         BrickPi.MotorSpeed[PORT_A] = -255  #Set the speed of MotorA (-255 to 255)
     	BrickPi.MotorSpeed[PORT_B] = -255  #Set the speed of MotorB (-255 to 255)
-   	#ot = time.time()
-    	#while(time.time() - ot < 3):    #running while loop for 3 seconds
-        BrickPiUpdateValues()       # Ask BrickPi to update values for sensors/motors
-            #time.sleep(.1)              # sleep for 100 ms
+        BrickPiUpdateValues()       
     print BrickPi.Sensor[PORT_1]
-    BrickPi.MotorSpeed[PORT_A] = 0  #Set the speed of MotorA (-255 to 255)
-    BrickPi.MotorSpeed[PORT_B] = 0  #Set the speed of MotorB (-255 to 255)
     BrickPiUpdateValues()
+    
+    while not result and BrickPi.Sensor[PORT_1]<20:
+    	print "Turning..."
+    	print BrickPi.Sensor[PORT_1]
+        BrickPi.MotorSpeed[PORT_A] = 255
+    	BrickPi.MotorSpeed[PORT_B] = -255  #Set the speed of MotorB (-255 to 255)
+   	ot = time.time()
+    	while(time.time() - ot < 3):    #running while loop for 3 seconds
+        BrickPiUpdateValues()       # Ask BrickPi to update values for sensors/motors
+            time.sleep(3)
+            BrickPiUpdateValues()
 
    # print "Running Reverse"
    # BrickPi.MotorSpeed[PORT_A] = -255  #Set the speed of MotorA (-255 to 255)
